@@ -61,6 +61,25 @@ img {
     padding: 1px;
 }
 
+.profile-stats {    
+    font-size: 1.25rem;
+    margin: 50px 30px;
+}
+
 li {
     display: inline;
+    margin: 0 5px;
+}
+
+.profile-stat-count {
+    font-weight: bold;
+}
+
+.profile-bio {
+    font-size: 1.125rem;
+    margin: 50px 30px;
+}
+
+.profile-real-name {
+    font-weight: bold;
 }
