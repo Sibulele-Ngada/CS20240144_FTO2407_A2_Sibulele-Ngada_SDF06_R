@@ -22,8 +22,14 @@ img {
     display: block;
 }
 
+/* div {
+    margin: auto;
+} */
+
 .profile {
     display: flex;
+    margin: auto;
+    width: 50%;
 }
 
 .profile-user-settings {
