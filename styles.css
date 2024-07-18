@@ -21,3 +21,15 @@ body {
 img {
     display: block;
 }
+
+.profile {
+    display: flex;
+}
+
+.profile-user-settings {
+    display: flex;
+}
+
+li {
+    display: inline;
+}
