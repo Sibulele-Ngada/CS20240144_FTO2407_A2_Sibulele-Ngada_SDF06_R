@@ -18,9 +18,9 @@ body {
     padding-bottom: 3rem;
 }
 
-img {
+/* img {
     display: block;
-}
+} */
 
 /* div {
     margin: auto;
@@ -30,6 +30,12 @@ img {
     display: flex;
     margin: auto;
     width: 50%;
+}
+
+.profile-image {
+    border: 15px solid green;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .profile-user-settings {
