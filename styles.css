@@ -233,6 +233,7 @@
   
     .profile-image img {
         width: 7.7rem;
+        border: 0.5rem solid darkgreen;
     }
   
     .profile-user-settings {
@@ -292,7 +293,7 @@
     }
   }
   
-  /* Spinner Animation */
+  /* Loader Animation */
   
   @keyframes loader {
     to {
@@ -337,8 +338,9 @@
   
         .profile-image {
             grid-row: 1 / 2;
-            border: 0.625rem solid darkgreen;
         }
+
+
   
         .profile-user-settings {
             display: grid;
