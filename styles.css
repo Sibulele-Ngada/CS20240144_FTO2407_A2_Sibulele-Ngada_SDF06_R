@@ -72,6 +72,7 @@
   }
   
   .profile-image img {
+    border: 1.25rem solid darkgreen;
     border-radius: 50%;
   }
   
@@ -299,14 +300,6 @@
     }
   }
   
-  /*
-  
-  The following code will only run if your browser supports CSS grid.
-  
-  Remove or comment-out the code block below to see how the browser will fall-back to flexbox & floated styling.
-  
-  */
-  
   @supports (display: grid) {
     .profile {
         display: grid;
@@ -344,6 +337,7 @@
   
         .profile-image {
             grid-row: 1 / 2;
+            border: 0.625rem solid darkgreen;
         }
   
         .profile-user-settings {
